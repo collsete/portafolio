@@ -42,14 +42,14 @@ const Contacto = () => {
     return (
         <motion.div className="contacto" variants={variants} initial="initial" whileInView="animate">
             <motion.div variants={variants} className="textContainer">
-                <motion.h1 variants={variants}>Trabajemos juntos!</motion.h1>
+                <motion.h1 variants={variants}>¡Trabajemos juntos!</motion.h1>
                 <motion.div className="item" variants={variants}>
                     <h2>Mail</h2>
                     <span>Oscar.Ortiz111@gmail.com</span>
                 </motion.div>
                 <motion.div className="item" variants={variants}>
                     <h2>Dirección</h2>
-                    <span>Viña Del Mar</span>
+                    <span>V Región</span>
                 </motion.div>
                 <motion.div className="item" variants={variants}>
                     <h2>Teléfono</h2>

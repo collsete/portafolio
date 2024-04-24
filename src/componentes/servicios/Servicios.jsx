@@ -45,7 +45,7 @@ const Servicios = () => {
                 <h1>
                     <motion.b whileHover={{color:"orange"}}> Destacadas. </motion.b>
                 </h1>
-                    <button onClick={handleButtonClick} >¿Qué Realicé?</button>
+                    <button onClick={handleButtonClick} >Mis repositorios</button>
 
             </div>
         </motion.div>
@@ -80,7 +80,6 @@ const Servicios = () => {
                     <li>Metodologia ágil</li>
                     <li>Wordpress</li>
                     <li>Shopify</li>
-                    <li>SQL</li>
                 </ul>
                 <button onClick={handleButtonClickLinkedin}>Ir</button> 
             </motion.div>
