@@ -48,11 +48,11 @@ const Contacto = () => {
                     <span>Oscar.Ortiz111@gmail.com</span>
                 </motion.div>
                 <motion.div className="item" variants={variants}>
-                    <h2>Direccion</h2>
-                    <span>Canal Kirke 550, Viña Del Mar</span>
+                    <h2>Dirección</h2>
+                    <span>Viña Del Mar</span>
                 </motion.div>
                 <motion.div className="item" variants={variants}>
-                    <h2>Telefono</h2>
+                    <h2>Teléfono</h2>
                     <span>+56932936415</span>
                 </motion.div>
             </motion.div>

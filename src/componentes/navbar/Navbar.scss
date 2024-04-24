@@ -1,5 +1,5 @@
 .navbar{
-    height: 100px;
+    height: 200px;
 
     .wrapper{
         max-width: 1366px;
@@ -12,15 +12,18 @@
 
     span{
         font-weight: bold;
-
+        font-size: 35px;
     }
     .social{
         display: flex;
         gap: 20px;
 
         img{
-            width: 18px;
-            height: 18px;
+            position: relative;
+            border-radius: 8px;
+            width: 32px;
+            height: 32px;
+            z-index: 1;
         }
     }
 }

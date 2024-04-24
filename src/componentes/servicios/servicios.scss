@@ -65,11 +65,20 @@
         padding-bottom: 40px;
 
         .caja{
-            padding:50px ;
-            border: 2px solid gray;   
+            padding: 50px;
+            border: 2px solid gray;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            margin-left: 20px;
+            width: 600px;
+            height: 500px;
+
+            h2{
+                font-size: 40px;
+                font-weight: 100;
+                text-align: center;
+            }
         }
 
         button{
